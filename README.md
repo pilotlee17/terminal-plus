@@ -4,6 +4,28 @@
 
 不绑定 Codex、Claude 或项目，不要求 Git，不自动创建 worktree。不需要选择工具或创建工作区。
 
+## 看图上手
+
+以下为交互示意图，终端命令和输出为演示内容。
+
+### 一个窗口，同时处理多件事
+
+运行服务、查看日志、执行测试，各用一个独立终端。点「新建终端」自动选择分屏位置，也可以手动左右或上下分屏。
+
+![Terminal+ 分屏总览：四个独立终端分别运行服务、查看日志、执行测试和检查 Git 状态](docs/images/overview.svg)
+
+### 拖动标题栏，调整布局
+
+拖到另一面板中央交换位置，拖到边缘放在它的左、右、上、下方。松手前有绿色落点预览，按 `⌥⌘Z` 可以撤销布局调整。
+
+![拖动重排示意：中央交换位置，四个边缘调整分屏位置](docs/images/drag-layout.svg)
+
+### 圈选多个终端，统一关闭
+
+点「批量选择」，拖框圈选或逐个点击；`Shift` 追加选择，`⌘A` 全选。点「关闭选中」后统一确认，只结束选中终端中的程序。
+
+![批量关闭示意：圈选两个终端，核对确认弹窗后结束并关闭](docs/images/batch-close.svg)
+
 ## 下载与安装
 
 从 [GitHub Releases](https://github.com/pilotlee17/terminal-plus/releases/latest) 下载 `TerminalPlus-0.8.0-macos-arm64.zip`，解压后把 `Terminal+.app` 放入「应用程序」。
